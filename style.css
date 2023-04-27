@@ -1,0 +1,43 @@
+p{
+    color:darkslategrey;
+}
+header{
+    height: 400px;
+}
+article{
+    width: 1000px;
+}
+
+.about-site{
+    color : grey;
+}
+.article{
+    color:darkslategrey;
+}
+#main-header  a{
+font-size: 28px;
+color: black;
+
+
+}
+#header-image-container{
+
+}
+#blog-header{
+    font-family:  sans-serif;
+}
+#blog-content{
+
+}
+#blog-image-container{
+
+}
+li h4{
+    font-family: monospace;
+   
+    font-size: 1.33rem;
+    font-size: 18px;
+}
+#main-header a:hover{
+    color:orange;
+}
