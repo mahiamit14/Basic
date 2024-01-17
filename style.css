@@ -1,8 +1,18 @@
+/* TASK 1: Set the width of the image globally to 100%. This will make all the images width equal to the width of its parent.
+
+TASK 2: Set an id to the parent of the first image( i.e. 'coding-ninjas-logo.png') to "logo" and set the absolute width of the image to 210px.
+
+TASK 3: Change the width of the blog content from '1000px' to '90%' of the viewport width.
+TASK 4: Change the size of the text of element with id 'site-title' to '1.8rem'. */
+/* html{
+    width: 100%;
+} */
+
 p{
     color:darkslategrey;
 }
 header{
-    height: 400px;
+    /* height: 400px; */
 }
 article{
     width: 1000px;
@@ -21,13 +31,17 @@ color: black;
 
 }
 #header-image-container{
-
+  width: 100%;
 }
 #blog-header{
-    font-family:  sans-serif;
+    /* font-family:  sans-serif; */
+    /* text-size-adjust: 3.2rem; */
 }
 #blog-content{
-
+height: 1.1rem;
+/* text-align: 1px; */
+word-spacing: 1px;
+line-height: 1.4;
 }
 #blog-image-container{
 
@@ -40,4 +54,38 @@ li h4{
 }
 #main-header a:hover{
     color:orange;
+}
+#main-border{
+    /* border: 5px dashed #ff6060; */
+     /* margin-left: 60px;
+     margin-right: 20px; */
+    /* border-top-right-radius: 50px;
+    border-top-left-radius:50px ;
+    border-left: 0px ; */
+}
+a{
+    height: 1.25px;
+    text-decoration: none;
+}
+.sources  a:hover{
+    color:black;
+}
+#blog-header{
+
+}
+
+
+#body-tag{
+    margin-left: 60px;
+    margin-right: 20px;
+}
+#main-header{
+    margin-top: 60px;
+}
+#site-title{
+    margin-bottom:0px;
+    padding: 0px;
+}
+#header-image-container{
+    margin-top: 50px;
 }

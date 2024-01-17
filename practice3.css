@@ -1,0 +1,35 @@
+#box{
+    background-color: whitesmoke;
+    height: 300px;
+    width: 400px;
+    display: flex;
+    border: 1px solid black;
+    /* flex-wrap: wrap; */
+
+}
+
+#box1{
+    height: 100px;
+    width: 100px;
+    background-color: #1b707d;
+}
+#box2{
+    height: 100px;
+    width: 100px;
+    background-color: #f7ff9b;
+}
+#box3{
+    height: 100px;
+    width: 100px;
+    background-color: #179127;
+}
+#box4{
+    height: 100px;
+    width: 100px;
+    background-color: #2e1283;
+}
+#box5{
+    height: 100px;
+    width: 100px;
+    background-color: #ff9b9b;
+}
